@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test verbose="2" preserve-order="true" name="Onliner regression tests">
+        <classes>
+            <class name="petStory.PetTests"></class>
+            <class name="petStory.UsersTest"></class>
+            <class name="RegresTest"></class>
+        </classes>
+    </test>
+</suite>
