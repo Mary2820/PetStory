@@ -54,9 +54,6 @@
                 <groupId>io.qameta.allure</groupId>
                 <artifactId>allure-maven</artifactId>
                 <version>2.10.0</version>
-                <configuration>
-                    <reportversion>${allure.version}</reportversion>
-                </configuration>
             </plugin>
         </plugins>
     </build>
